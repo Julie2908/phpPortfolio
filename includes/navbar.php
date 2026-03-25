@@ -1,39 +1,19 @@
-<!DOCTYPE html>
-<html lang="da">
-<head>
-	<meta charset="utf-8">
-	
-	<title>Forside</title>
-	
-	<meta name="robots" content="All">
-	<meta name="author" content="Udgiver">
-	<meta name="copyright" content="Information om copyright">
-	
-	<link href="css/styles.css" rel="stylesheet" type="text/css">
-	
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-
-<body>
-
-<a href="index.html"><h1 class="virksomhedNavn">ZODIA STUDIO</h1></a>
-
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="forside.php">Forside</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="index.php">Produkter</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="kontakt.html">Kontakt</a>
+                    <a class="nav-link" href="kontakt.php">Kontakt</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -49,12 +29,3 @@
         </div>
     </div>
 </nav>
-
-
-<h1>FORSIDE</h1>
-
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
