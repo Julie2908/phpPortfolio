@@ -24,16 +24,14 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
   font-family: Baskerville;
   background: #AD9D8D;
   padding: 60px;
+  font-weight: bold;
+  letter-spacing: 8px;
 
 }
 
 a{
     color: black !important;
     text-decoration: none !important;
-}
-
-.navbar navbar-expand-lg bg-body-tertiary{
-  font-family: Baskerville;
 }
 
 
@@ -46,11 +44,34 @@ a{
   margin-bottom: 40px;
 }
 
-.overskrift2{
+h2{
   font-family: Baskerville;
   font-weight: bold;
   text-align: left;
   margin-top: 80px;
   margin-left: 50px;
-  margin-bottom: 40px;
+  margin-bottom: 100px;
+}
+
+.btn-primary {
+  background-color: #AD9D8D;
+  border-color: #928374;
+}
+
+.btn-primary:hover {
+  background-color: #928374;
+  border-color: #928374;
+}
+
+.container{
+  font-family: Georgia;
+}
+
+.navbar{
+  font-family: Georgia;
+  padding: 30px;
+}
+
+.navbar-brand{
+
 }
