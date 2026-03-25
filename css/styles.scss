@@ -18,3 +18,29 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import "bootstrapComponents";
 
 // 5. Du kan lave styling her...
+
+.virksomhedNavn{
+  text-align: center;
+  font-family: Baskerville;
+  background: #AD9D8D;
+  padding: 60px;
+}
+
+.navbar navbar-expand-lg bg-body-tertiary{
+  font-family: Baskerville;
+}
+
+
+
+.overskrift1{
+  font-family: Baskerville;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 80px;
+  margin-left: 50px;
+}
+
+.mb-3{
+  margin: 50px;
+  font-family: Baskerville;
+}
